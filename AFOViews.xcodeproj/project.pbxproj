@@ -54,12 +54,12 @@
 			isa = PBXGroup;
 			children = (
 				242F4568201C73C000830BF3 /* AFOViews.h */,
-				242F4570201C740900830BF3 /* progressSlider */,
+				24FA1D0A232CE34100675FAC /* progressSlider */,
 			);
 			path = AFOViews;
 			sourceTree = "<group>";
 		};
-		242F4570201C740900830BF3 /* progressSlider */ = {
+		24FA1D0A232CE34100675FAC /* progressSlider */ = {
 			isa = PBXGroup;
 			children = (
 				24CD24C6201D73C600ADB2FE /* AFOProgressSliderManager.h */,
@@ -67,7 +67,7 @@
 				242F4571201C743100830BF3 /* AFOProgressSlider.h */,
 				242F4572201C743100830BF3 /* AFOProgressSlider.m */,
 			);
-			path = progressSlider;
+			name = progressSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
