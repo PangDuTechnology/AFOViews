@@ -82,7 +82,11 @@
     return _sliderPercent;
 }
 #pragma mark ------------   dealloc
-- (void)dealloc{
+- (void)dealloc {
+    [_displayLink invalidate];
+    _displayLink = nil;
+#if DEBUG
     NSLog(@"dealloc AFOProgressSliderManager");
+#endif
 }
 @end
