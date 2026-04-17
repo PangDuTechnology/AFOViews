@@ -66,7 +66,8 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = '8.0'
+  s.platform     = :ios, "13.0"
+  s.ios.deployment_target = '13.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
